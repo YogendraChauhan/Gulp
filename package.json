@@ -1,14 +1,14 @@
 {
   "name": "sample",
   "version": "1.0.0",
-  "description": "Sample Gulp Testing Project",
+  "description": "This program is created for step by step learning of the gulp process to automate and enhance your workflow by preferring code over configuration, node best practices, and a minimal API surface - gulp makes things simple like never before.",
   "main": "index.js",
   "scripts": {
     "serve": "gulp serve",
     "build": "gulp build"
   },
   "author": "Yogendra Chauhan",
-  "license": "UNLICENSED",
+  "license": "GPL",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",

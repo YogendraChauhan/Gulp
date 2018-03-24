@@ -10,19 +10,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install to automate your workflow and how to install them, if you don't have node.js & npm installed on your system, install it from here (https://nodejs.org/en/).
 
+List of the npm commands are:
+
 ```
-* npm init
-* npm install --global gulp
-* npm install --save-dev gulp
-* npm install --save-dev gulp-concat
-* npm install --save-dev gulp-uglify
-* npm install --save-dev gulp-minify-css
-* npm install --save-dev gulp-imagemin
-* npm install --save-dev del
-* npm install --save-dev gulp-inject
-* npm install --save-dev run-sequence
-* npm install --save-dev gulp-connect
+npm init
+npm install --global gulp
+npm install --save-dev gulp
+npm install --save-dev gulp-concat
+npm install --save-dev gulp-uglify
+npm install --save-dev gulp-minify-css
+npm install --save-dev gulp-imagemin
+npm install --save-dev del
+npm install --save-dev gulp-inject
+npm install --save-dev run-sequence
+npm install --save-dev gulp-connect
 ```
+
+## How to Run
+
+* See all the dev dependencies in [package.json](package.json) file. 
+* Run `npm install` command to install all the dev dependencies.
+* Execute code with `npm run serve`, `npm run build` commands & visit [http://localhost:8888] to see changes.
+> `npm run serve` command executes code locally & served on [http://localhost:8888].
+> `npm run build` command creates a minified & optimized production build in build folder.
+> see [package.json](package.json) for more understanding.
+
+
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - An open source server framework
