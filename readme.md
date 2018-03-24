@@ -23,31 +23,6 @@ What things you need to install to automate your workflow and how to install the
 * npm install --save-dev run-sequence
 * npm install --save-dev gulp-connect
 ```
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - An open source server framework
